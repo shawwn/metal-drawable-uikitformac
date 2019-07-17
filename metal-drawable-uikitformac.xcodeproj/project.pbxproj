@@ -24,6 +24,7 @@
 		A131486022DEB457007B2108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A131486322DEB457007B2108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A131486522DEB457007B2108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A131486B22DEB466007B2108 /* metal-drawable-uikitformac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "metal-drawable-uikitformac.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		A131485622DEB454007B2108 /* metal-drawable-uikitformac */ = {
 			isa = PBXGroup;
 			children = (
+				A131486B22DEB466007B2108 /* metal-drawable-uikitformac.entitlements */,
 				A131485722DEB454007B2108 /* AppDelegate.swift */,
 				A131485922DEB454007B2108 /* SceneDelegate.swift */,
 				A131485B22DEB454007B2108 /* ViewController.swift */,
@@ -284,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "metal-drawable-uikitformac/metal-drawable-uikitformac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = B9452FEMTF;
 				INFOPLIST_FILE = "metal-drawable-uikitformac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emilykolar.metal-drawable-uikitformac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,7 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "metal-drawable-uikitformac/metal-drawable-uikitformac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = B9452FEMTF;
 				INFOPLIST_FILE = "metal-drawable-uikitformac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emilykolar.metal-drawable-uikitformac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
